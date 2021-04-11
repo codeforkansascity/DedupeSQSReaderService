@@ -9,7 +9,7 @@ namespace DedupeSQSReaderService
 		internal static string EventSourceName = "DeDupeSQSReader";
 		internal static string LogToWriteTo = "Application";
 		internal static string ProcessToRun = @"C:\KCDigitalDrive\Python\Python39\python.exe";
-		internal static string ProcessToRunParameters = "s3_csv_example.py c4kc-cvax-deduplication c4kc-cvax-deduplication";
+		internal static string ProcessToRunParameters = "KCDigitalDrive_Vacc.py c4kc-cvax-deduplication c4kc-cvax-deduplication";
 		//If you use just the queue name you get this error:
 		//Invalid URI: The format of the URI could not be determined
 		//_sqsQueueUrl = "cvax-dedupe-request-queue"; 
